@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    
+    char my_name[]="danish";
+    for(int i=0;my_name[i];i++){
+        cout<<"character is : "<<my_name[i]<<endl;
+    }
+    for (char*cp=my_name;*cp!=0;cp++){
+        cout<<"alpha i s : "<<*cp<<endl;
+        
+        }
+    return 0;
+}
